@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number V.1</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+  <div class="container pt-5 mt-5 w-50 text-center">
+    <h2 class="w-75 mx-auto text-light" >🎈 Welcome To <br> Guess The Number Game v.1</h2>
+    <div class="mt-5 mb-5 mx-auto  ">
+      <input type="text" placeholder="Enter A number 1 to 10❓" id="txt"class="form-control-lg te text-center ">
+    </div>
+
+  <button id="btn1" class="btn btn-danger btn-lg mb-4"> Check 🤨</button>
+
+  <span id="sp" class="visually-hidden"></span>
+
+  
+  <p id="parg" class="text-light fs-4 fw-semibold mb-0"></p>
+  <p class="text-light fs-3">
+    Your Attemps (<span id="attemp">3</span>)
+  </p>
+  <button class="btn btn-primary mb-4 btn-lg text-center mx-auto" id="again" style="display: none;"> Play again</button>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
